@@ -32,7 +32,7 @@ const generateMarkdown = (data) => {
   ${data.description}
   ${data.contributing ? renderContributing() : ''}  
   ${renderLicense(data.license)}
-  This README file was created using the app :)
+  \nThis README file was created using the app :)
 `
 }
 // Export the main generateMarkdown function so we can use it in our app.

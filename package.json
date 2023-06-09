@@ -4,13 +4,11 @@
   "description": "A node js powered cli application that generates readme files",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Christian B. Martinez",
   "license": "MIT",
   "dependencies": {
-    "inquirer": "^8.2.4",
-    "nodemon": "^2.0.22"
+    "inquirer": "^8.2.4"
   }
 }

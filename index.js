@@ -15,11 +15,6 @@ const questions = [
     message: 'How would you describe it?',
   },
   {
-    type: 'input',
-    name: 'installation',
-    message: 'What command should the user run to install your app?',
-  },
-  {
     type: 'list',
     name: 'license',
     message: 'What type of license do you want?',

@@ -1,8 +1,8 @@
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-  
-  # asdf
-  asd
+  ![alt text](https://github.com/christianbmartinez/readme-generator/blob/main/nodeapp.jpg)
+  # Readme Generator
+  A node js console application that generates README files
 
   ### Table of Contents
   **[Installation Instructions](#installation)**<br>
@@ -13,22 +13,22 @@
   **[Questions](#questions)**<br>
 
   # Installation
-  ```asfd```
+  ```git clone https://github.com/christianbmartinez/readme-generator.git```
 
   # Usage
-  ```asdf```
+  ```npm install && npm start```
 
   # License
   This project is covered under the [MIT](https://opensource.org/licenses/MIT) license.
 
   # Contributing
-  safd  
+  Contribting is welcomed! Please submit a pull request.  
 
   # Tests
-  asdf
+  Using jest for example, setup a test script and use npm run test
 
   # Questions
-  Feel free to [email](mailto:hello@christianbmartinez.com?subject=[GitHub]%20Readme%20Generator) me with any questions or view [my github profile](https://github.com/asdf)
+  Feel free to [email](mailto:hello@christianbmartinez.com?subject=[GitHub]%20Readme%20Generator) me with any questions or view [my github profile](https://github.com/christianbmartinez)
 
   
 This README file was created using the app :)

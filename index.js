@@ -2,7 +2,7 @@
 const inquirer = require('inquirer')
 const generateMarkDown = require('./utils/generateMarkdown')
 const fs = require('fs')
-// Create an array of questions for user input
+// Create an array of questions to store the users input
 const questions = [
   {
     type: 'input',
@@ -12,7 +12,17 @@ const questions = [
   {
     type: 'input',
     name: 'description',
-    message: 'How would you describe it?',
+    message: 'How would you describe your app?',
+  },
+  {
+    type: 'input',
+    name: 'installation',
+    message: 'How do you install your app?',
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'How would a user use your app?',
   },
   // Give the user two options for licenses
   {
@@ -21,15 +31,25 @@ const questions = [
     message: 'What type of license do you want?',
     choices: ['MIT', 'ISC'],
   },
-  // Using filter() we can evaluate the selection to true or false
   {
-    type: 'list',
+    type: 'input',
     name: 'contributing',
-    message: 'Do you want a contributing section?',
-    choices: ['Yes', 'No'],
-    filter(val) {
-      return val === 'Yes' ? true : false
-    },
+    message: 'How would a user contribute to your app?',
+  },
+  {
+    type: 'input',
+    name: 'tests',
+    message: 'How would a user test your app?',
+  },
+  {
+    type: 'input',
+    name: 'username',
+    message: 'What is your github username?',
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'What is your email address?',
   },
   {
     type: 'list',

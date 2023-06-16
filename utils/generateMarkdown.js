@@ -55,7 +55,7 @@ const generateMarkdown = (data) => {
   ${data.tests}
 
   # Questions
-  Feel free to [email](${data.email}) me with any questions or view [my github profile](https://github.com/${data.username})
+  Feel free to [email](mailto:${data.email}?subject=[GitHub]%20Readme%20Generator) me with any questions or view [my github profile](https://github.com/${data.username})
 
   \nThis README file was created using the app :)
 `
